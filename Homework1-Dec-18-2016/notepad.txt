@@ -1,0 +1,31 @@
+1) what is version control tool?
+	A version control tool stores the changes made to a file each time in a new version so that we can recall specific versions later.
+
+2) what is repository?
+	->	Repository is a place where data is stored and maintained in an organized way.
+	->	It is used by version control systems to store multiple versions of files. 
+	
+3) why do we need to use repository in software development?
+	->	A repository provides a structured way for programmers to store development files. 
+	->	By committing changes to a repository, developers can quickly revert to a previous version of a program 	if a recent update causes bugs or other problems.
+	-> 	It is stored on a server, which can be accessed by multiple users.
+
+4) what is GIT?
+	GIT is a version control system that stores the project with the entire version history.
+
+5) what is github?
+	GIT runs on local server, where GITHub is both a remote server. It is a web-based Git repository hosting service.  
+
+6) differences between git and github?
+		Git is a piece of software that you install locally on your computer which handles 'version control' for you.
+
+		Github is a place to store identical working directories - aka repositories.
+		It is a hub for Git.
+
+7) what is pull, push, commit in git?
+	Pull- pulls the latest changes down from github.
+	push- upload local changes to git.
+	commit- records changes to the repository
+
+8) what are merge conflicts?
+	Merge conflicts occurs when multiple developers set changes across same set(line) of code.
