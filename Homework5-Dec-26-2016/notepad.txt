@@ -1,0 +1,118 @@
+Home work 5 -- December-26-2016 explain with examples: 
+
+1) explain all input types with examples 
+	Input type is mainly used to accept user data in the web forms. 
+	Some of the input types are as follows:
+
+	--> text: used to represent text which includes all characters
+	--> email: this checks for the email format
+	--> password: this is password field where characters entered in this field are hidden (takes form of 		asteriks or circles)
+	--> tel: this allows user to enter only the number
+	--> url: this field allows to enter url of a website
+	--> number: this allows user to enter number including special characters such as  $, and more
+	--> checkbox: this allows user to check for multiple options
+	--> radio: this allows user to select only one option
+	--> date: this allows user to enter or pick date
+	--> submit: this is similar to a button, but it submits data to the server
+	--> reset: this allows user to reset all the given values in the input fields.
+
+
+2) explain all the input attributes? 
+	In general, attribute values provides the additional or extra information about the element.
+	Some of the input attributes are as follows:
+
+	--> Value: used to assign a value which can be edited
+	--> size: denotes the input box or field size
+	--> height: allows to specify the height of the given field
+	--> width: allows to specify the width of the given field
+	--> max-length: restricts user to enter the data only to the length provided
+	--> autocomplete: completes the fields with the data which is submitted already
+	--> autofocus: makes focus automatically on the input given after the pageload
+	--> list: provides multiple pre-defined options
+	--> pattern: restricts user to enter the data in the defined pattern only
+	--> placeholder: gives instructions to user on what to enter on the given input field
+	--> required: this attributes makes the input field mandatory
+	--> disabled: makes the input field disable
+	--> readonly: doesn't allow user to change or edit the existing value
+	--> file: allows to attach files
+	--> multiple: allows to attach multiple files
+
+3) what are semantic elements ? 
+	Semantic elements are the elements which provides meaning to the reader, user or browser.
+	eg: <footer>, <header>, <form>, <table>, etc., 
+
+4) diff between article, section, div 
+	div:
+		-Non-semantic element
+		- block level element
+
+	section:
+		-It is a collection of related documents such subsection, article, etc.,
+		-It contains header and footer
+
+	Article:
+		-It is an independent part of the document, which is meaningful such as weather report article in the first page of the newspaper
+
+5) explain with exmaples about <article>, <aside>, <details>, <figcaption>, <figure>, <footer>, <header>, <main>, <mark>, <nav>, <section>, <summary>, <time> 
+	
+	<section>:
+		group of related content.
+
+	<article>:
+		Independent document which makes sense on its own. 
+
+	<header>:
+		Introduction part of the document
+
+	<footer>:
+		Contains information about the content such as author, etc.,
+
+	<nav>: 
+		defines set of navigation links which may refer to internal or external links
+	
+	<mark>:
+		highlights the text
+
+	<aside>:
+		define content aside such as advertisement
+	<figure>:
+		defines an image with the help of img tag
+	<figcaption>:
+		provides caption to the given image
+	<details>:
+		provides additional or extra information
+	<main>:
+		describes main content of a document
+	<time>: specificies time
+
+
+
+6) what are from and what is form validation in html?
+	form:
+		- used to collect data from the users.
+
+	form validation:
+		- validates the form i.e., validates whether the data given is appropriate to the respective input field.
+		-checks whether all required fields are entered.
+		-checks whether all restrictions or limitations are satisfied.
+
+7) differences between html4 and html5? 
+	HTML5 has semantic elements. attributes, graphical tags, web workers.
+	semantic elementss: 
+		section, article, aside, header, footer, nav
+
+	attributes:
+		list, autofocus, autocomplete, required, pattern, placeholder, etc.,
+
+	Graphical tags:
+		canvas, svg, google maps
+
+
+
+
+
+
+
+
+
+
