@@ -65,7 +65,7 @@ Home work 5 -- December-26-2016 explain with examples:
 		Introduction part of the document
 
 	<footer>:
-		Contains information about the content such as author, etc.,
+		Contains information about the about author, copyrights, etc.,
 
 	<nav>: 
 		defines set of navigation links which may refer to internal or external links
