@@ -1,0 +1,50 @@
+1) Different types in css? 
+	Three different types of CSS styles exists:
+	Inline CSS: 
+				-By using inline css, styles can be applied to a specific tag. 
+				-Inline css are mentioned in opening tag of the required tag by using "style" attribute
+				-eg: <p>Color of apple is <em style="color: red;">red</em></p> 
+
+	Internal CSS (embedded css)
+				- Using Internal CSS, we can apply same style to specific elements throughout the document by making style declaration only once in the <head> section 
+				- All the CSS decorations or stylings should be listed in <style> tags within <head> section.
+				-If we wish to represent a particular element in a specific style then Internal CSS would be much helpful. 
+				e.g: body{
+							background-color: orange; 
+						}
+
+	External CSS
+				- Used to apply same styles to multiple web pages.
+				- Stylings are maintained in a separate file with ".css" extension
+				- This external file is linked to the html file using <link> tag in the  	head section.
+				- eg: <link rel="stylesheet" type="text/css" href="styles.css">	
+
+2) What is cascading in css? 
+	-Each type of the css add its own theme to the html web page.
+	-Cascading means sequence of styles. 
+	-It helps to apply most recent style by overriding the styles which are defined earlier if multpile styles are declared for a element or section. 
+	-styles are cascaded in the order they appear.
+
+3) Why do we need to use css? 
+	CSS mainly concentrates on how data looks on the web page. 
+	It adds stylings or decoration to the plain text or page to make it attractive. 
+
+4) Which type of css is a better practice? 
+	External CSS is a better practice than other types. 
+	External CSS: It is useful when we want apply same styles to multiple web pages (					recommended)
+			Advantages:
+				-High page optimization
+				-separates content from decorations
+				-eliminates duplication of code.
+
+	Internal CSS: Useful to apply specific style to a webpage.
+
+	Inline CSS: useful to apply unique style to a tag or element.
+			Disadvantages:
+				- If we want to style multpile paragraph elements in the same way, then we have write styles for each and every paragraph. Thus needs more coding, thus increases bandwidth
+				-low page optimization
+
+5) What are selectors and why do we need them in css?
+	CSS follows set of rules to identify which styles to be applied to which elements in the HTML web page. These are known as "Selectors". 
+	-Inshort selectors identifies elements or tags which need to be styled.
+	-Some of the CSS selectors are .class, #id, <tagName>, and more.

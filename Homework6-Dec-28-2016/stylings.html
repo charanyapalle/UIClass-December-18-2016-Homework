@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<style>
+		body{
+			background-color: orange; /*Internal CSS*/ 
+
+		}
+		
+	</style>
+</head>
+<body>
+	<h1 align="center">Job Applciation</h1>
+	<input type="image" src="http://www.valuewalk.com/wp-content/uploads/2016/07/Jobs.jpg" style="width: 430px; height: 430px" align="right"> 
+	<!-- Inline CSS -->
+	<form autocomplete="on">
+		<p>First name: <input type="text" name="First name" size="18" pattern=[A-Za-z]" autofocus="on"></p>
+		<p>Last name: <input type="text" name="Last name"></p>
+		<p>User name: <input type="text" name="User name"></p>
+		<p>E-mail: <input type="email" name="E-mail" autocomplete="off" required="on"></p>
+		<p>Password: <input type="password" name="Password" autocomplete="off" required="on"></p>
+		<p>Telephone: <input type="tel" name="Telephone"></p>
+		<p>Location: <input type="text" value="United States" readonly="on"></p>
+	 	<p>LinkedIn: <input type="url" name="LinkedIn" placeholder="URL of your LinkedIn profile" novalidate></p>
+		<p>Expected Salary: <input type="number" name="Expected Salary" maxlength="6"></p>
+		<p>Source: <input type="text" name="Source" value="careers"></p>
+		<p>Preferable way to contact: <input list="contact ways">
+			<datalist id="contact ways"> 
+				<option value="E-mail">
+				<option value="Phone">
+			</datalist>
+		</p>
+
+		<p>Interested Areas: <br>
+			<ul type="none">
+				<li><input type="checkbox" name="Interested Area1">Software Developer </li>
+				<li><input type="checkbox" name="Interested Area1">Hardware Developer </li>
+				<li><input type="checkbox" name="Interested Area1">Lead Developer </li>
+				<li><input type="checkbox" name="Interested Area1">Junior Developer </li>
+				<li><input type="checkbox" name="Interested Area1">Software Architect </li>
+			</ul>
+		</p>
+
+		<p>Years of Experience: <br>
+			<ul type="none">
+				<li><input type="radio" name="option">0 years</li>
+				<li><input type="radio" name="option">< 2 years</li>
+				<li><input type="radio" name="option">< 4 years</li>
+				<li><input type="radio" name="option">> 5 years</li>
+			</ul>
+		</p>
+		<p>Certifications: <input type="file" name="certifications" multiple="on"></p>
+		<p>Resume: <input type="file" name="resume"></p>
+		<p>Additional Information: <input type="text" name="Additional Information" size="40" disabled></p>
+
+		Full Name: <input type="text">
+		Date: <input type="date" name="Date" autocomplete="on">
+		<input type="submit" Value="Submit">
+		<input type="reset">
+	</form>
+</body>
+</html>
