@@ -97,15 +97,18 @@ Home work 5 -- December-26-2016 explain with examples:
 		-checks whether all restrictions or limitations are satisfied.
 
 7) differences between html4 and html5? 
-	HTML5 has semantic elements. attributes, graphical tags, web workers.
-	semantic elementss: 
-		section, article, aside, header, footer, nav
+	
+	-Many elements have been removed and new elements are also added in html4 to html5
+	-HMTL5 has Semantic elements such as section, article, aside, header, footer, nav
+	-It also has media tags and attributes (audio and video features)
+	-Graphic tags (canvas and svg)
+	-drag and drop attributes are also added
+	-new html5 dom events are added
+	-html5 api's- web storage, application cache, web workers, navigator, geolocation, file api
+	-doctype definition is changed, now we don't need to provide DTD
+	-html5 input validations
 
-	attributes:
-		list, autofocus, autocomplete, required, pattern, placeholder, etc.,
 
-	Graphical tags:
-		canvas, svg, google maps
 
 
 
