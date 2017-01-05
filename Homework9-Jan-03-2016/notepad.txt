@@ -1,0 +1,113 @@
+1) what are media queries?
+	CSS3 media qureies are similar to media types of CSS2. Media queries focus more on capability of the devie than the type of the device.
+
+	Media queries help in building the a web page compatible to device-width irrespective of type of device than writing a separate web page for each device type. 
+
+	Following which media queries contentrates on:
+    ->height and width of the device
+    ->height and width of the browser
+    ->screen resolution
+    ->orientation of the device (for mobile phones and tablets; portrait or landscape)
+
+  To apply changes changes, media queries uses @media rule, which defines different style rules for different media devices. 
+
+  Syntax:
+
+	  @media mediatype and (media feature) {
+	    CSS-Code;
+		}
+
+2) In media queries what are following properties min-width, max-width, resolution, screen, print, speech, with examples 
+	min-width  -> display area's minimum width 
+	max-width  -> display area's maximum width
+	resolution -> resolution of output device
+	screen     -> used for computer screens
+	print 	   -> used for printers
+	speech     -> useful for screenreaders
+
+3) what are position property values in css (static, relative, absolute, fixed) explain differences ? 
+	
+	Static: It is the default value. 
+		position: static;
+
+	Ralative: an element gets adjusted relatively to the given properties. Other contents will not be adjusted to fill any gap left by this.
+		 position: relative;
+		  top: -20px;
+		  left: 20px;
+		  background-color: white;
+		  width: 500px;
+
+	Fixed: an fixed element is placed relative to viewport (i.e.,  browser) in a fixed position. Even if the page scrolled, it will stays at the same place.
+		position: fixed;
+		  bottom: 0;
+		  right: 0;
+		  width: 200px;
+		  background-color: white;
+
+	Absolute: absolute is similar to the fixed postion element, but it is relative to nearest ancestor else to the body of the document. It will move along the page scrolling. 
+		position: absolute;
+		  top: 120px;
+		  right: 0;
+		  width: 300px;
+		  height: 200px; 
+
+4) what is a float and clear property in css? 
+	Float- It is used make the element float to the right or left side of its 				container.
+		 - Usually used for wrapping text around images.
+		 - It also has a none property, which tells the browser not to accept float.
+		 
+		 img {
+			  float: right;
+			  margin: 0 0 16px 16px;
+			}
+
+	Clear:
+		-controls behavior of floating elements
+		-it is used to avoid the collision between float elements.
+		-it has properties of 
+			left- clears elements floated to the left, 
+			right- clears elements floated to the left, and
+			both- clears elements floated to the left and right
+
+			.box{
+			clear:left;
+			}
+
+5) what is bootstrap grid system? rows and columns? 
+	Bootstrap grid is a HTML/CSS components library, which helps to structure a website and place its content easily in a desired location. 
+	- It is responsive, thus columns will re-arrange themselves according to the screen size. 
+	- It is made up of following things
+		-a container
+		-12-columns and 
+		-unlimited rows.
+
+6) what are xs, sm, md, lg in bootstrap? 
+	For different device sizes, bootstrap uses different column class prefixes. 
+		xs-  <768px           - used for phones
+		sm-  768px to 991px   - used for tablets
+		md-  992px to 1199px  - used for desktops
+		lg-  >= 1200px        - used for larger desktops
+
+7) differences between container and container-fluid? 
+	Bootstrap consists of two different layouts:
+		-> Fixed layout (.container) : 
+				- resizes in slowly at many defined widths, which are controlled by media queries. 
+				- It flows the fixed width whose values are specified.
+
+		-> fluid layout (.container-fluid) :
+				- Occupies all the available width 
+				- resizes continuously, when the browser or window is resized.
+
+8) what are the break points to be use in media queries for mobile, tablets, medium size desktops and large desktops?
+	@media (min-width:320px) 
+		{ /* smartphones, iPhone, portrait 480x320 phones */ }
+	@media (min-width:481px) 
+		{ /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+	@media (min-width:641px) 
+		{ /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+	@media (min-width:961px) 
+		{ /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+	@media (min-width:1025px) 
+		{ /* big landscape tablets, laptops, and desktops */ }
+	@media (min-width:1281px) 
+		{ /* hi-res laptops and desktops */ }

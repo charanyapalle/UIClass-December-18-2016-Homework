@@ -1,0 +1,23 @@
+1) what is the differences between id, class, attribute, tagName selectors and differences between them, when to use what? 
+
+
+2) what is css Specificity? --> explain with all possible examples(of all variations)? 
+
+
+3) look into all css selectors ? explain with examples? http://www.w3schools.com/cssref/css_selectors.asp 
+
+
+4) look into all css properties ? explain with examples? http://www.w3schools.com/cssref/default.asp 
+
+
+5) descendent selectors in css? 
+
+
+6) child selector in css? 
+
+
+7) adjacent sibiling selectors in css? 
+
+8) multiple selectors in css? using , comma 
+
+9) varaiations in attribite based selectors?

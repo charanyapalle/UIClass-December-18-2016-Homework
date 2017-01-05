@@ -98,7 +98,8 @@ Home work 5 -- December-26-2016 explain with examples:
 
 7) differences between html4 and html5? 
 	
-	-Many elements have been removed and new elements are also added in html4 to html5
+	-Many elements have been removed 
+	 new elements are also added in html4 to html5
 	-HMTL5 has Semantic elements such as section, article, aside, header, footer, nav
 	-It also has media tags and attributes (audio and video features)
 	-Graphic tags (canvas and svg)

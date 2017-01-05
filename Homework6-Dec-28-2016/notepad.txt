@@ -29,6 +29,8 @@
 	CSS mainly concentrates on how data looks on the web page. 
 	It adds stylings or decoration to the plain text or page to make it attractive. 
 
+	CSS consists of selectors and declarations; selectors determine which element is styled and declarations tell web browsers what the style should be.
+
 4) Which type of css is a better practice? 
 	External CSS is a better practice than other types. 
 	External CSS: It is useful when we want apply same styles to multiple web pages (					recommended)
@@ -48,3 +50,4 @@
 	CSS follows set of rules to identify which styles to be applied to which elements in the HTML web page. These are known as "Selectors". 
 	-Inshort selectors identifies elements or tags which need to be styled.
 	-Some of the CSS selectors are .class, #id, <tagName>, and more.
+
