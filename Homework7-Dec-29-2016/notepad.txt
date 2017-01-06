@@ -1,8 +1,36 @@
 1) what is the differences between id, class, attribute, tagName selectors and differences between them, when to use what? 
 
+CSS uses selectors to determine which element should be styled. 
+	tagName- Used to select by given tag name.
+			- eg: p {color: blue}
+
+	ID- Id selectors are unique throughout the webpage
+		- an element can have only one ID.
+		- an ID should be associated to only one element in the web page that is, it can not be reused.
+		-class name is referred using "."
+		- eg: .className {color: blue}
+
+	Class-Class selectors are not unique
+		- An element can have more than one class.
+		- a class can be used by multiple elements, thus a class is reusable.
+		- Id name is referred using "#"
+		- eg: #idName {color: blue}
+
+	Atttribute- attribute selectors are case-sensitive.
+		- there are seven diff types of attribute selectors.
+		-eg:[attribute]{
+				/*css styles goes here*/
+			}
 
 2) what is css Specificity? --> explain with all possible examples(of all variations)? 
-
+	-> Specificity determines, which CSS rule should be applied by the browsers.
+	-> If two or more selectors are applied to the same element, the one with the higher specificity wins.
+	-> If the given selectors have equal specificity value, the latest rule is taken into consideration.
+	-> Order of specificity is as follows (lowers by specificity):
+			-> Inline styles
+			-> IDs
+			-> classes, attributes and pseudo-classes
+			-> Elements and pseudo-elements
 
 3) look into all css selectors ? explain with examples? http://www.w3schools.com/cssref/css_selectors.asp 
 
@@ -11,13 +39,82 @@
 
 
 5) descendent selectors in css? 
+	Descendent selectors:
+		 syntax:
+		  selector1 selector2{
+		  /*css goes here*/
+		  }
 
+	-> Here Selector1 is ancestor element
+	-> selector2 is a descendant element (grand-children)
+	-> Descendent selectors , selects all the selector2 type grand children of the ancestor element.
 
 6) child selector in css? 
+	Child selector:
+		Syntax:
+		selector1>selector2{
+		  /*css goes here*/
+		  }
 
+	-> Here Selector1 is parent element
+	-> selector2 is a child element 
+	-> Child selectors , selects all the selector2 type children of the parent element.	  
 
 7) adjacent sibiling selectors in css? 
+	Adjacent Sibling:
+		Syntax:
+		selector1+selector2{
+		  /*css goes here*/
+		  }
+
+	-> Here Selector1 is an element
+	-> selector2 is a sibling of selector1 
+	-> Adjacent selectors , selects immediate sibling of selector1 of type selector2.
 
 8) multiple selectors in css? using , comma 
+	Multiple Selectors:
+		Syntax:
+		selector1,selector2{
+		  /*css goes here*/
+		  }
+
+	-> Multiple selectors , selects all the elements of the type selector1 and selector2.
+
 
 9) varaiations in attribite based selectors?
+	General syntax: 
+		[attribute]{
+		/*css styles goes here*/
+		}
+
+		->	[attributeName] {
+			  /* selects elements with given attributeName */
+			}
+
+		->	[attributeName="abc"] {
+			  /* selects elements that have the combination of attributeName with  this exact value */
+			}
+
+		->	[attributeName*="abc"] {
+			  /* selects elements with given attributeName that contains this value somewhere in it eg: "abc efg" or "efabcgh" */
+			}
+
+		->	[attributeName~="abc"] {
+			  /* selects elements with given attributeName that has this value in a space-separated list somewhere */
+			  /*eg: img[alt~="abc"]=> selects "abc efg", "efg abc" but not "abcefg" (case sensitive)*/
+			}
+
+		->	[attributeName^="abc"] {
+			  /* selects elements with given attributeName that starts with this value */
+			  /*eg: img[alt^="abc"]=> selects "abc efg", "abcefg" but not "Abcefg" (case sensitive)*/
+			}
+
+		->	[attributeName|="abc"] {
+			  /* selects elements with given attributeName that has this value in a dash-separated list somewhere */
+			  /*eg: [fruits|="abc"]*/ selects abc-xyz but not xyz-abc
+			}
+
+		->	[attributeName$="abc"] {
+			  /*selects elements with given attributeName that value that ends with this */
+			  /*eg: a[href$="pdf"]*/
+			}

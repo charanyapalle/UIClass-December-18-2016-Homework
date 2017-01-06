@@ -35,3 +35,7 @@
 		}
 
 6) what is responsive web design?
+	Responsive web design suggests that design and development of a web page should respond to the user's behavior and environment based on size of the screen, platform, and orientation.
+
+	->Whenever we try to resize a webpage, the content of the web page should get adjusted to the respective size.    
+	-> Uses HTML and CSS
