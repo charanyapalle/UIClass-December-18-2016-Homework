@@ -1,0 +1,37 @@
+1) what are psuedo classes in css? 
+	Pseudo classes are added to the selectors to define a special state to the selector. 
+	syntax: 
+		selector:pseudo_class{
+			property:value;
+		}
+
+2) what are pusedo elements in css? 
+	Pseudo elements are added to the selectors to define style to certain parts of an element.
+	syntax:
+		selector::pseudo_element{
+			property:value;
+		}
+
+3) diff between pusedo classes and psuedo elements? 
+	Pseudo classes-> Uses ":"
+					-adds style to complete element
+	Pseudo elements-> Uses "::"
+					- adds style to specific part of an element
+
+4) explain all pusedo classes and elements with examples? http://www.w3schools.com/cssref/css_selectors.asp 
+	
+
+5) what are media queries in css and how can you use them ? 
+	CSS3 media qureies are similar to media types of CSS2. Media queries focus more on capability of the devie than the type of the device.
+
+	Media queries help in building the a web page compatible to device-width irrespective of type of device than writing a separate web page for each device type.
+
+	@media rule is used to implement css3 media queries.
+
+	Syntax:
+
+	  @media (media feature) {
+	    CSS-Code;
+		}
+
+6) what is responsive web design?
