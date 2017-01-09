@@ -1,0 +1,62 @@
+1) bootstrap buttons? 
+	Bootstrap usually has many predefined classes.
+
+	Bootstrap has predefined classes for buttons in seven different styles based on their function. 
+
+	--> <button type="button" class="btn btn-info">Info</button>
+	Here class1 -> .btn -> indicates the button shape i.e; rounded corners, width and height
+	class2 -> .btn-info -> adds respective color and propertiees
+
+	 Default--> standard button type 
+	 		--> ".btn-default"
+	 		--> <button type="button" class="btn btn-default">Info</button>
+	 
+	 Primary--> adds extra weight and finds primary action among others
+	 		-->  ".btn-primary"
+	 		--> <button type="button" class="btn btn-primary">Info</button>
+
+	 Success--> indicates successful action
+	 		-->  ".btn-success"
+	 		--> <button type="button" class="btn btn-success">Info</button>
+	  
+	 Info   --> alert messages
+	 		-->  ".btn-info"
+	 		--> <button type="button" class="btn btn-alert">Info</button>
+
+	 Warning--> indicates warning
+	 		-->  ".btn-warning"
+	 		--> <button type="button" class="btn btn-warning">Info</button>
+
+	 danger --> indicates dangerous action
+	 		-->  ".btn-danger"
+	 		--> <button type="button" class="btn btn-danger">Info</button>
+
+	 link   --> looks like a link but behaves as a button
+	 		-->  ".btn-link"
+	 		--> <button type="button" class="btn btn-link">Info</button>
+
+	Bootstrap button classes can be used by <a>, <button>, or <input>
+
+	Buttons comes in four different sizes
+		large -> .btn-lg
+		medium -> .btn-md
+		small -> .btn-sm
+		extra small -> .btn-xs
+
+	eg: <button type="button" class="btn btn-info btn-sm">small</button>
+
+
+2) bootstrap input and input-sizing? 
+
+
+3) bootstrap glyphicon? 
+	Glyphicons are icon fonts or symbols which can be used in web pages.
+
+	syntax:
+		<span class="glyphicon glyphicon-name"></span>
+
+	glyphicons can be found at
+		http://glyphicons.com/
+
+
+4) bootstrap, images, wels, jumbotron, panel, alerts, badges, labels, lists, pagination, pills , tabs, ...
