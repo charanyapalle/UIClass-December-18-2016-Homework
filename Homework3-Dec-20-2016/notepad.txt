@@ -1,3 +1,4 @@
+
 1) how to resolve merge conflicts?
 	Merge conflicts occurs when multiple developers set changes across same set(line) of code. They can be resolved by removing all the conflict markers "<<<<<<<", "=====", and ">>>>>>" in the page and commit.
 
