@@ -1,5 +1,5 @@
 1) bootstrap buttons? 
-	Bootstrap usually has many predefined classes.
+	Bootstrap usually has many predefined classes which gives styling globally.
 
 	Bootstrap has predefined classes for buttons in seven different styles based on their function. 
 
@@ -47,7 +47,21 @@
 
 
 2) bootstrap input and input-sizing? 
+	All input types are supported in bootstrap. Predefined classes for the input types are as follows:
 
+	text-> .form-control
+	textarea-> .form-control
+	password-> .form-control
+	select-> .form-control
+	checkbox-> .checkbox
+	radio-> .radio
+
+	input-sizing:
+		set height -> .input-lg or .input-sm
+		set width -> .col-lg-* or .col-sm-*
+
+		eg:
+		 <input class="form-control input-lg" id="inputlg" type="text">
 
 3) bootstrap glyphicon? 
 	Glyphicons are icon fonts or symbols which can be used in web pages.
@@ -59,4 +73,22 @@
 		http://glyphicons.com/
 
 
-4) bootstrap, images, wels, jumbotron, panel, alerts, badges, labels, lists, pagination, pills , tabs, ...
+4) bootstrap, images, wells, jumbotron, panel, alerts, badges, labels, lists, pagination, pills , tabs, ...
+
+	Images
+		Bootstrap supports three different shapes of images.
+			circles-> .img-circle 
+			rounded corners -> .img-rounded
+			thumbnail -> .img-thumbnail 
+
+		To make image responsive add ".img-responsive" class to the img tag.
+		<img class="img-responsive img-circle" src="image.jpg">
+
+	Well:
+		It is a container, which creates inset effect on the page.
+   		syntax:
+   			<div class="well"> This is in a well </div>
+
+   		-> well also has sizes
+   		 	large-> .well-lg
+   		 	small-> .well-sm	
