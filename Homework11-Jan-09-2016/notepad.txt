@@ -1,0 +1,60 @@
+1) display property values? 
+	Display property determines how an element should behave. 
+	Inline-> Inline element occupies as much as space it needed. 
+		  -> Accepts margin and padding but not height and width
+		  ->eg: span, b, em
+
+	Block->Always starts on a new line
+		 -> Occupies all the space available to the left and right.
+		 ->eg: div, header, footer, form
+
+2) display none and visibility hidden differences in css? when do you use either one of them? 
+	Display none: Is used to hide element without deleting them.
+				-> it doesn't occupy its space, it behaves as it doesn't even existed
+				-> display: none;
+
+	Visibility hidden: It is used to hide element.
+					  -> though the element is hidden, it occupies its space allocated.
+					  -> visibility:hidden;
+
+3) css box model? 
+	CSS Box model is a box which is wraps an element. It consists of 
+		-> Content - Actual content or text or image
+		-> Padding- Transparent area around the content. 
+		-> Border-  Border goes around the content and padding. It is visible
+		-> Margin- Transparent space around the border of the element 
+		-> eg: div {
+					    width: 250px;
+					    padding: 10px;
+					    border: 10px black;
+					    margin: 10px; 
+					}
+	
+
+4) box sizing in css? 
+	Box sizing helps to change the default values of box model. Box- sizing calculates total width and total height in the following ways:
+
+		-> Total width= width of the content + padding + border
+		-> Total height= height of the content + padding + border
+
+	box-sizing: content-box
+		-> follows the default css box model values i.e; uses width and height values
+
+	box-sizing: border-box;
+		-> Uses total width and total height
+		-> here elements width and height aren't affected by padding or margins
+
+5) what SASS? 
+	-> SASS (Syntactically Awesome Stylesheets)
+	-> SASS is a CSS preprocessor which has additional features than CSS, like 
+		- variables: this stores information or data. represented with "$"
+		-mixins: helps to reuse css declarations. uses @mixin and @include
+		-nesting: Sass also allows nesting of CSS selectors.
+		-import: helps in importing partial css. Uses @import
+		-inheritance/ extend: allows to share set of css properties. uses @extend
+
+
+6) what is preprocessor? why do you need to use preprocessor?
+	A preprocessor is a program which converts data from one type to other. 
+	Uses:
+		-> Easy maintainability 
