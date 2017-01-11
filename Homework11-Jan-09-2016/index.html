@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.inline{
+			display: inline;
+		}
+		.block{
+			display: block;
+			color: blue;
+		}
+		.none{
+			display: none;
+		}
+		.hidden{
+			visibility: hidden;
+		}
+
+	</style>
+</head>
+<body>
+	<p>Display properties helps to determine how an element should behave</p>
+	<div>Block level elements occupies all the available width</div>
+	<p>Inline elements occupies <em>required width</em></p>
+	<p>Sometext</p>
+	<p class="inline">Paragraph is a block level element, but with the display property we even make it inline</p>
+	<p class="inline">observe difference between paragraphs without class and with class </p>
+	<b style="color: lightblue;">inline</b>
+	<b class="none">block</b>
+	<b style="color: lightgreen;">inline-block</b>
+	<b style="color: yellow;">none</b>
+	<b class="block">hidden</b>
+	
+	<div>
+		<p>1</p>
+		<p>2</p>
+		<p>3</p>
+		<p>4</p>
+		<p>5</p>
+	</div>
+
+	<div>
+		<p>1</p>
+		<p class="none">2</p>
+		<p>3</p>
+		<p class="hidden">4</p>
+		<p>5</p>
+	</div>
+</body>
+</html>
