@@ -1,0 +1,44 @@
+1) what are the data types in java script? 
+	Java Script has two types of data types.
+	Primitive data type
+		->String - holds text
+		->Number - holds numeric values
+		->Boolean- holds boolean values i.e., true or false
+		->Undefined- holds undefined value i.e., a variable which has not been assigned a value
+		-> null  - holds no value/ null
+
+	Non-primitive data type
+		-> Object - comes in "name: value" pairs
+		-> Array  - holds groups of similar values
+		-> function
+
+2) what are the diff between java and javascript espically in terms of variables? 
+	In javascript, variables have two different scopes i.e;
+		-> local scope  - these variables are local to a function, where they are declared using "var" keyword
+		-> global scope - these variables available globally i.e., through out the web page. Declared without a "var" keyword.
+
+		syntax: 
+			var name = value-expression;
+
+	In Javascript, "local" variables have function scope, not block scope.
+	
+	Java- variable data types must be declared 
+	JavaScript- variable data types are not declared		
+
+3) why do we use javascript in web pages? 
+	JavaScript is a scripting language which provides user interactivity with webpages. It is also used for:
+		- client-side validation
+		- manipulation of webpage elements
+		-loads the page content without refreshing(reloading) the page - AJAX
+
+
+4) how to include javascript into webpages? 
+	Javascript is included into HTML documents in <script> tags. 
+		- Script tags can be placed in the <head> or <body> tags.
+
+5) where to include java script in webpages and why?
+	They can be placed in the following ways:
+
+	<head>- If javascript is added here, script compilation occurs even before code is loaded. Thus increase page load time.
+	<body>- If javascript is added at the bottom of the <body> section, script compilation occurs after the page is fully loaded.
+	 	- thus improves page optimization.
