@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<p>methods to add, remove an element or item to an array</p>
+
+	<script>
+		var electronics = ['telephone', 'tv', 'tablets', 'laptops'];
+
+		//adding items at the end of an array
+
+		electronics[4]= 'LED'; // adds an element at the index 4
+		electronics[3]= 'LCD'; // adds an element at the index 3 by removing the  value if any exists already
+		electronics[8]= 'ipad'; // adds at index 8 leaving before values undefined which aren't defined
+
+		electronics.push('desktops'); // push- adds an item at the last index;
+		electronics.push('ipod', 'mobiles');
+
+		// removing an item from end of an array
+
+		var accessories = ['earphones', 'headphones', 'cable'];
+		accessories.pop(); 
+		var x= electronics.pop();
+
+		//adding items at the start of an array
+
+		accessories.unshift('charger');
+
+		//removing items from the start of an array
+
+		accessories.shift();
+
+
+		accessories.splice(2, 0, "adapter"); // adds items at the specific index
+		accessories.splice(1, 0, "power bank");
+
+		var os= ['windows', 'ubuntu', 'iOS'];
+		os.splice(1,1); //also removes an item from specific index 
+
+		os.push('android', 'unix');
+
+		var OS = os.slice(2);
+
+		var operating = os.slice(1,3);
+
+
+
+
+
+	</script>
+
+</body>
+</html>

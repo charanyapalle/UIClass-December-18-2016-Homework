@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+	<p id="demo">mobiles</p>
+	<p id="demo1">a</p>
+	<p id="demo2">abc</p>
+
+	<script>
+		var mobiles = ["iphone", "nokia", "samsung"];
+		console.log(mobiles.length); // gives length of the array 'mobiles'
+
+		var first = mobiles[0]; //gives value of index '0'
+
+		var last = mobiles[mobiles.length - 1]; //gives value of index which is located at total length - 1
+		var second = mobiles[mobiles.length - 2];
+		var third = mobiles[1];
+
+		console.log(mobiles);
+
+		mobiles.forEach(function(item, index, array)
+		{
+			console.log(item, index);
+		});
+
+		mobiles.forEach(function(item, index, array)
+		{
+			console.log(index, item);
+		});
+
+		/*mobiles.map(function(item, index, array)
+		{
+			console.log(item, index);
+		});
+
+		mobiles.map(function(item, index, array)
+		{
+			console.log(index, item);
+		});*/
+
+		document.getElementById("demo").innerHTML= mobiles;
+
+		var a = mobiles.push("android"); //adds item at the end of the array
+		/*console.log(a);*/
+		
+		document.getElementById("demo1").innerHTML= mobiles;
+		console.log(a);
+		console.log(mobiles);
+
+		mobiles[mobiles.length]= "HTC"; // works same as push- adds item at the end of the array
+		
+		document.getElementById("demo2").innerHTML= mobiles;
+		console.log(mobiles);
+
+	</script>
+
+</body>
+</html>
