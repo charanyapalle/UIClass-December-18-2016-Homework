@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Objects</title>
+</head>
+<body>
+
+	<script>
+	// using object  literals
+		var fruits = {name: "mango", quantity: "10", color: "green"};
+		console.log(fruits);
+		var games = {
+			name: "chess",
+			players: "2",
+			colors: "white/black" };
+		console.log(games);
+
+	//using "new" keyword
+		var outdoor = new Object();
+		outdoor.Name = "football";
+		outdoor.teams = "2";
+		outdoor.players = "22";
+		console.log(outdoor);
+
+	//using constructor
+		function indoor(name, players){
+			this.Name = name; 
+			this.Players = players;
+		}
+
+		var indoor1 = new indoor("tennis", "2");
+		var indoor2 = new indoor("carroms", "4");
+		console.log(indoor1);
+		console.log(indoor2);
+
+	//using create()
+		var outdoor1 = Object.create(outdoor);
+		outdoor1.name = "cricket";
+		outdoor1.teams = "2";
+		outdoor1.players = "22";
+		console.log(outdoor1);
+
+		games.type= "indoor, outdoor";
+		console.log(games);
+
+		delete outdoor1.players;
+		console.log(outdoor1);
+
+		outdoor1.players = "11+11";
+		console.log(outdoor1);
+
+		console.log(outdoor1.hasOwnProperty("players"));
+
+	</script>
+
+</body>
+</html>

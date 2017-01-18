@@ -1,0 +1,63 @@
+1) array methods --> forEach, map, reduce, sort, reverse ,... https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array 
+
+2) what are the different ways to create objects? 
+	Objects are created in three different ways:
+
+	-Using object literal:
+
+		var fruits = {name: "mango", quantity: "10", color: "green"};
+
+	-Using "new" keyword:
+
+		var fruits = new Object();
+		fruits.name = "watermelon";
+		fruits.quantity = "12";
+		fruits.color = "green";
+
+	-Using object constructor
+
+		function fruits(Name, Quantity, Color){
+			this.name = Name;
+			this.quantity = Quantity;
+			this.color = Color;
+		}
+
+		var myFavorite = new fruits("gova", "7", "green");
+
+3) what are properties in object? 
+
+
+4) how to retrieve a property value in object? 
+	syntax: 
+		objectName.propertyName ;
+
+		or
+
+		objectName['propertyName'];
+
+		or
+
+		objectName[expression];
+
+5) how to add a property into object? 
+	syntax: 
+		objectName.propertyName = "value";
+
+		eg:
+		fruits.type= "raw";
+
+6) how to remove a property in object? 
+	syntax:
+		delete objectName.propertyName;
+
+		or
+
+		delete objectName['propertyName'];
+
+7) how to update a property value in object? 
+	syntax: 
+		objectName.existingPropertyName = "value";
+
+8) how to check if an property exists with in an object?
+	syntax:
+		obj.hasOwnProperty()
