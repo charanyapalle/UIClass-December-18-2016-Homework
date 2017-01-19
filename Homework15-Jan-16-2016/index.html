@@ -21,26 +21,7 @@
 
 		console.log(mobiles);
 
-		mobiles.forEach(function(item, index, array)
-		{
-			console.log(item, index);
-		});
-
-		mobiles.forEach(function(item, index, array)
-		{
-			console.log(index, item);
-		});
-
-		/*mobiles.map(function(item, index, array)
-		{
-			console.log(item, index);
-		});
-
-		mobiles.map(function(item, index, array)
-		{
-			console.log(index, item);
-		});*/
-
+		
 		document.getElementById("demo").innerHTML= mobiles;
 
 		var a = mobiles.push("android"); //adds item at the end of the array
@@ -54,6 +35,26 @@
 		
 		document.getElementById("demo2").innerHTML= mobiles;
 		console.log(mobiles);
+
+		var numbers = [1, 2, 3, 4];
+		numbers.forEach(function(item, index, array)
+		{
+			console.log(item, index);
+		});
+
+		numbers.forEach(function(item, index, array)
+		{
+			console.log(index, item);
+		});
+
+		var roots= numbers.map(Math.sqrt);
+		
+
+		var maps= numbers.map(function(item, index, array)
+					{
+						console.log(index, item);
+					});
+
 
 	</script>
 
