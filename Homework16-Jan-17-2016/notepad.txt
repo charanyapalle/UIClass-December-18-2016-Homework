@@ -1,5 +1,22 @@
 1) array methods --> forEach, map, reduce, sort, reverse ,... https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array 
 
+	forEach()- iterates through each and every element of an array by applying the given function.
+		syntax:
+			objectName.forEach(function(){});
+
+	map()- iterates through each and every element of an array by applying the given function.
+		- returns an array
+		syntax:
+			objectName.map(function(){});
+
+	reverse() - reverse's the array's elements
+		syntx: 
+			objectName.reverse();
+
+	sort()- sort's the array's elements i.e; in alphabetical or numerical order
+		syntx: 
+			objectName.sort();
+
 2) what are the different ways to create objects? 
 	Objects are created in three different ways:
 
